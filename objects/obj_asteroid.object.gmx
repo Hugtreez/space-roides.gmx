@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>while (place_meeting(x,y,obj_player))
+            <string>while (distance_to_object(obj_player) &lt; 100)
 {
     x = random(room_width)
     y = random(room_height)
