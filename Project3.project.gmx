@@ -17,9 +17,14 @@
     <sprite>sprites\sp_bullet</sprite>
     <sprite>sprites\sp_asteroid</sprite>
     <sprite>sprites\spr_asteroid_s</sprite>
+    <sprite>sprites\spr_dead_player</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\fnt_small</font>
+    <font>fonts\fnt_large</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_score</object>
     <object>objects\obj_player</object>
@@ -28,6 +33,8 @@
     <object>objects\obj_asteroid_s</object>
     <object>objects\obj_spawner</object>
     <object>objects\obj_music</object>
+    <object>objects\obj_dead_player</object>
+    <object>objects\obj_gameover</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
