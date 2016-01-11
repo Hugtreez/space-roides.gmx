@@ -136,7 +136,8 @@ audio_play_sound(snd_explode,0,0);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>game_restart();
+            <string>audio_play_sound(snd_gameover,0,0);
+room_restart();
 </string>
           </argument>
         </arguments>
