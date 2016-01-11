@@ -24,6 +24,7 @@
     <object>objects\obj_bullet</object>
     <object>objects\obj_asteroid</object>
     <object>objects\obj_asteroid_s</object>
+    <object>objects\obj_spawner</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>

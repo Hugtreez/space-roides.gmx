@@ -25,7 +25,16 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0;
+            <string>while (place_meeting(x,y,obj_player))
+{
+    x = random(room_width)
+    y = random(room_height)
+
+}
+
+
+
+image_speed = 0;
 image_index = irandom(2);
 image_xscale = 0.5 + random(0.7);
 image_yscale = image_xscale;
