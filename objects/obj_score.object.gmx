@@ -74,7 +74,8 @@ draw_text(64,32,global.points);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>game_restart();
+            <string>audio_stop_all();
+game_restart();
 </string>
           </argument>
         </arguments>
