@@ -58,6 +58,8 @@ speed = 0.5 + random(2);
 instance_create(x,y,obj_asteroid_s);
 
 global.points = global.points + 50
+
+audio_play_sound(snd_explode,0,0);
 </string>
           </argument>
         </arguments>
