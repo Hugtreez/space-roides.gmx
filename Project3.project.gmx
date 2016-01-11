@@ -9,7 +9,6 @@
     <sound>sound\snd_explode</sound>
     <sound>sound\snd_shoot_1</sound>
     <sound>sound\snd_shoot_2</sound>
-    <sound>sound\snd_music</sound>
     <sound>sound\snd_gameover</sound>
   </sounds>
   <sprites name="sprites">
@@ -27,7 +26,6 @@
     <object>objects\obj_asteroid</object>
     <object>objects\obj_asteroid_s</object>
     <object>objects\obj_spawner</object>
-    <object>objects\obj_music</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>

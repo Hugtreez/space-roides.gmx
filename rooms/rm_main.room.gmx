@@ -54,7 +54,6 @@
     <instance objName="obj_score" x="96" y="32" name="inst_AAC50AD4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="512" y="320" name="inst_3F324774" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spawner" x="288" y="512" name="inst_4870E71D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_music" x="192" y="288" name="inst_7F7E859B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
