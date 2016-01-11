@@ -27,7 +27,8 @@
             <kind>1</kind>
             <string>image_speed = 0;
 image_index = irandom(2);
-
+image_xscale = 0.3 + random(0.7);
+image_yscale = image_xscale;
 direction = random(360);
 speed = 0.5 + random(2);
 
