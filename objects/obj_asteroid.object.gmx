@@ -130,14 +130,31 @@ audio_play_sound(snd_explode,0,0);
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>other</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>audio_play_sound(snd_gameover,0,0);
-room_restart();
+            <string>var randomangle = random(360);
+var o;
+o = instance_create(x,y,obj_dead_player);
+o.angle = 0 + randomangle;
+o = instance_create(x,y,obj_dead_player);
+o.angle = 120 +randomangle;
+o = instance_create(x,y,obj_dead_player);
+o.angle = 240 +randomangle;
+
+with (obj_dead_player)
+{
+    direction = angle;
+    image_angle = angle;
+    speed = 3;
+}
+
+audio_play_sound(snd_gameover,10,0);
+instance_destroy();
+
 </string>
           </argument>
         </arguments>
