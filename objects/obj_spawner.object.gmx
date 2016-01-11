@@ -25,13 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (!instance_exists(obj_asteroid))
-{
-    instance_create(random(room_width), random(room_height),obj_asteroid);
-    instance_create(random(room_width), random(room_height),obj_asteroid);
-    instance_create(random(room_width), random(room_height),obj_asteroid);
-    instance_create(random(room_width), random(room_height),obj_asteroid);
-    instance_create(random(room_width), random(room_height),obj_asteroid);
+            <string>if (instance_number(obj_asteroid) &lt; 5) {
+    for(var i=0;2+i&lt;irandom(3);i++) {
+        instance_create(random(room_width), random(room_height),obj_asteroid);
+    }
 }
 </string>
           </argument>
