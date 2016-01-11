@@ -153,6 +153,7 @@ with (obj_dead_player)
 }
 
 audio_play_sound(snd_gameover,10,0);
+instance_create(0,0,obj_gameover);
 instance_destroy();
 
 </string>
