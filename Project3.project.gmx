@@ -9,13 +9,16 @@
     <sprite>sprites\sp_player</sprite>
     <sprite>sprites\sp_bullet</sprite>
     <sprite>sprites\sp_asteroid</sprite>
+    <sprite>sprites\spr_asteroid_s</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
+    <object>objects\obj_score</object>
     <object>objects\obj_player</object>
     <object>objects\obj_bullet</object>
     <object>objects\obj_asteroid</object>
+    <object>objects\obj_asteroid_s</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_main</room>
