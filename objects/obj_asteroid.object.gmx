@@ -176,6 +176,7 @@ instance_destroy();
         <arguments>
           <argument>
             <kind>1</kind>
+            <string></string>
           </argument>
         </arguments>
       </action>
