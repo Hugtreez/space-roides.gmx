@@ -176,9 +176,6 @@ instance_destroy();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(os_type == os_android) achievement_increment("CgkIitHLs6gCEAIQAA", 1);
-if(os_type == os_android) achievement_post_score("CgkIitHLs6gCEAIQBg", global.points);
-</string>
           </argument>
         </arguments>
       </action>
