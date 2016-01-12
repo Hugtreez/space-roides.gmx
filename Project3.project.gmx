@@ -17,6 +17,7 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sp_player</sprite>
+    <sprite>sprites\spr_player_i</sprite>
     <sprite>sprites\sp_bullet</sprite>
     <sprite>sprites\sp_asteroid</sprite>
     <sprite>sprites\spr_asteroid_s</sprite>
