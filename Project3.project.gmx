@@ -45,8 +45,10 @@
     <object>objects\obj_dead_player</object>
     <object>objects\obj_gameover</object>
     <object>objects\obj_menu</object>
+    <object>objects\obj_pause</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_initialize</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_main</room>
   </rooms>

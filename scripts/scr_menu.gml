@@ -2,7 +2,7 @@ switch (mpos)
 {
     case 0: 
     {
-        room_goto_next();
+        room_goto(rm_main);
         break;
     }
     case 1:
