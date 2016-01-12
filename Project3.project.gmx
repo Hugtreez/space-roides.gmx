@@ -17,6 +17,7 @@
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sp_player</sprite>
+    <sprite>sprites\spr_arrow</sprite>
     <sprite>sprites\spr_player_i</sprite>
     <sprite>sprites\sp_bullet</sprite>
     <sprite>sprites\sp_asteroid</sprite>
@@ -25,8 +26,12 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_menu.gml</script>
+  </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_small</font>
+    <font>fonts\fnt_menu</font>
     <font>fonts\fnt_large</font>
   </fonts>
   <objects name="objects">
@@ -39,8 +44,10 @@
     <object>objects\obj_music</object>
     <object>objects\obj_dead_player</object>
     <object>objects\obj_gameover</object>
+    <object>objects\obj_menu</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_menu</room>
     <room>rooms\rm_main</room>
   </rooms>
   <help>
