@@ -115,7 +115,7 @@ if (push == 1) scr_menu();
             mpos = 2;
         }
     }
-    if(mouse_x &gt; 170 &amp;&amp; mouse_x &lt; 420 &amp;&amp; mouse_y &gt; 468 &amp;&amp; mouse_y &lt; 432) {
+    if(mouse_x &gt; 170 &amp;&amp; mouse_x &lt; 420 &amp;&amp; mouse_y &gt; 468 &amp;&amp; mouse_y &lt; 532) {
         if(mpos == 3) {
             scr_menu();
         } else {
