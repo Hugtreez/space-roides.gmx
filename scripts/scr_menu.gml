@@ -17,4 +17,9 @@ switch (mpos) {
            achievement_show_leaderboards();
        }
     }
+    case 4: {
+        if !achievement_login_status() {
+            achievement_login();
+        }
+    }
 }

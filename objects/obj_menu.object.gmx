@@ -29,6 +29,7 @@
 menu[1] = "Quit";
 menu[2] = "Achievements";
 menu[3] = "Leaderboards";
+menu[4] = "Play Games Log In";
 
 space = 64;
 mpos = 0;
@@ -120,6 +121,13 @@ if (push == 1) scr_menu();
             scr_menu();
         } else {
             mpos = 3;
+        }
+    }
+    if(mouse_x &gt; 170 &amp;&amp; mouse_x &lt; 420 &amp;&amp; mouse_y &gt; 532 &amp;&amp; mouse_y &lt; 596) {
+        if(mpos == 4) {
+            scr_menu();
+        } else {
+            mpos = 4;
         }
     }
 }
