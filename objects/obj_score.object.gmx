@@ -52,8 +52,8 @@ global.life = 2;
             <kind>1</kind>
             <string>draw_set_color(c_white);
 draw_set_font(fnt_small);
-draw_text(64,32,"Score: " + string(global.points));
-draw_text(64,64,"Lives: " + string(global.life));
+draw_text(58,32,"Score: " + string(global.points));
+draw_text(58,64,"Lives: " + string(global.life));
 </string>
           </argument>
         </arguments>
