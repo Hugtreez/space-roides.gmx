@@ -54,7 +54,9 @@ speed = 0.5 + random(2);
           <argument>
             <kind>1</kind>
             <string>global.points = global.points + 75
-
+if achievement_available() {
+    if(os_type == os_android) achievement_increment("CgkIitHLs6gCEAIQAQ", 1);
+}
 audio_play_sound(snd_explode,0,0);
 </string>
           </argument>

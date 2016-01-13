@@ -67,7 +67,9 @@ speed = 0.5 + random(2);
 instance_create(x,y,obj_asteroid_s);
 
 global.points = global.points + 50
-
+if achievement_available() {
+    if(os_type == os_android) achievement_increment("CgkIitHLs6gCEAIQAQ", 1);
+}
 audio_play_sound(snd_explode,0,0);
 </string>
           </argument>
@@ -188,8 +190,10 @@ audio_play_sound(snd_explode,0,0);
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(os_type == os_android) achievement_increment("CgkIitHLs6gCEAIQAA", 1);
-if(os_type == os_android) achievement_post_score("CgkIitHLs6gCEAIQBg", global.points);
+            <string>if achievement_available() {
+    if(os_type == os_android) achievement_increment("CgkIitHLs6gCEAIQAA", 1);
+    if(os_type == os_android) achievement_increment("CgkIitHLs6gCEAIQBA", 1);
+}
 </string>
           </argument>
         </arguments>
